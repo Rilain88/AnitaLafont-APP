@@ -1,12 +1,21 @@
 h3 {
     font-family: 'Dancing Script', cursive;
     font-size: 30px;
+   
 }
 
 p{
     font-family: 'Dancing Script', cursive;
 }
 
-.container{
- justify-content: center;
+.cuerpo{
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.catalogo{
+    display: grid;
+    grid-template-rows: repeat(1 , auto);
+    justify-content: center;  
 }

@@ -3,3 +3,8 @@ button{
     background: linear-gradient(to bottom, rgb(155, 98, 59), rgb(228, 213, 140) );;
     
 }
+
+.add{
+    justify-content: center;
+    align-items: center;
+}

@@ -8,8 +8,6 @@ function ItemList({products}) {
             <Item
             key={product.id}
             {...product} // extension array
-
-
             />
           ))
         }

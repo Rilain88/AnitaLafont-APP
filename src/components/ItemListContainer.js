@@ -5,7 +5,8 @@ import './ItemListContainer.css'
 
 function ItemListContainer() {
 
-  const [info, setInfo] = useState ([])
+const [info, setInfo] = useState ([])
+ 
 
   function onAdd(cantidad) {
     console.log(cantidad)
@@ -14,7 +15,8 @@ function ItemListContainer() {
     fetch('data.json') // trae la info del response comppleto
     .then((resp) => resp.json()) // Extrae la info a utilizar del Response
     .then((data) => setInfo(data)) // Setea esa info para nuestro State
-  }, {})
+    .catch(err => console.log(err))
+  }, [])
 
   return (
     <section className='cuerpo'>

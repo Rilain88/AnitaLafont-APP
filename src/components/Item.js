@@ -3,10 +3,10 @@ import './Item.css'
 
 function Item ({precio, id, title, thumbnailUrl}) {
     return(
-        <div className='container'>
+        <div className='card' >
             <div className="row">
               <div className="col-md-4">
-                  <img src={thumbnailUrl}/>
+                  <img style={{ heigth: 500 , width : 500}} src={thumbnailUrl}/>
                     <hr/>
                     <hr/>
                    <h3 className='card-title text-secondary'> {title}</h3>
