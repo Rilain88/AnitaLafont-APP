@@ -10,7 +10,7 @@ function Item ({precio, id, title, thumbnailUrl}) {
                     <hr/>
                     <hr/>
                    <h3 className='card-title text-secondary'> {title}</h3>
-                   <p>{precio}</p>
+                   <p>{id}</p>
                </div>
            </div>
         <button onClick={""}>Mas info.</button>

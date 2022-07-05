@@ -3,37 +3,43 @@
       "precio": 10000,
       "id": 1,
       "title": "Guillerminas Birkins",
-      "thumbnailUrl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/008/343/products/bd9628ff-f8b3-4b4a-bd0a-77231d18ba941-e44ab4b570a2a1a24e16514477747114-480-0.jpeg" 
+      "thumbnailUrl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/008/343/products/bd9628ff-f8b3-4b4a-bd0a-77231d18ba941-e44ab4b570a2a1a24e16514477747114-480-0.jpeg",
+      "description": "Cuero Vacuno"
     },
     {
       "precio": 11500,
       "id": 2,
       "title": "Guillerminas Rory Vieux Rose",
-      "thumbnailUrl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/008/343/products/a789bf12-1c13-4c4b-a20e-0c91391d61331-cc9490ea2e14cf4a6916453995456750-480-0.jpeg" 
+      "thumbnailUrl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/008/343/products/a789bf12-1c13-4c4b-a20e-0c91391d61331-cc9490ea2e14cf4a6916453995456750-480-0.jpeg", 
+      "description": "Cuero Vegano" 
     },
     {
       "precio": 12000,
       "id": 3,
       "title": "Guillerminas Rory Rose",
-      "thumbnailUrl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/008/343/products/bc450e3b-0ac8-41c0-a17a-b1991fe2b94f1-4a3e45dc88a3d9481816519737031137-480-0.jpeg"
+      "thumbnailUrl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/008/343/products/bc450e3b-0ac8-41c0-a17a-b1991fe2b94f1-4a3e45dc88a3d9481816519737031137-480-0.jpeg",
+      "description": "Cuero Vegano"
     },
     {
       "precio": 15000,
       "id": 4,
       "title": "Zapatos Dorothy",
-      "thumbnailUrl": "https://www.styletotal.com/sites/default/files/store/images/captura_de_pantalla_2020-01-07_a_las_14.36.36.png"
+      "thumbnailUrl": "https://www.styletotal.com/sites/default/files/store/images/captura_de_pantalla_2020-01-07_a_las_14.36.36.png",
+      "description":"Cuero Vacuno Fantasia"
     },
     {
       "precio": 13000,
       "id": 4,
       "title": "Zapatos Dorothy Shine",
-      "thumbnailUrl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/008/343/products/475446db-3db1-4a47-af4e-285aa4a629a21-151ba387674dc1cc7016468687136036-480-0.jpeg"
+      "thumbnailUrl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/008/343/products/475446db-3db1-4a47-af4e-285aa4a629a21-151ba387674dc1cc7016468687136036-480-0.jpeg",
+      "description":"Cuero Vacuno"
     },
     {
       "precio": 14000,
       "id": 6,
       "title": "Botas Spellman Black",
-      "thumbnailUrl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/008/343/products/bd6b7aed-8fea-4566-a260-c3fa10b111081-0db6df28c73b9f66e116531890119292-480-0.jpeg"
+      "thumbnailUrl": "https://d3ugyf2ht6aenh.cloudfront.net/stores/001/008/343/products/bd6b7aed-8fea-4566-a260-c3fa10b111081-0db6df28c73b9f66e116531890119292-480-0.jpeg",
+      "description": "Cuero Vacuno o Cuero Vegano"
     }
   ]
     
