@@ -3,19 +3,19 @@ import ItemDetail from './ItemDetail';
 
 function ItemDetailContainer() {
 
-const [info, setInfo] = useState ([])
+  const  [cardFetch, setCardFetch] = useState([])
  
   useEffect(()=>{
     fetch('data.json') // trae la info del response comppleto
     .then((resp) => resp.json()) // Extrae la info a utilizar del Response
-    .then((data) => setInfo(data)) // Setea esa info para nuestro State
+    .then((data) => setCardFetch(data)) // Setea esa info para nuestro State
     .catch(err => console.log(err))
   }, [])
 
   return (
     <section className='cuerpo'>
       <div className='catalogo'>
-       <ItemDetail  products={info}/>
+       <ItemDetail  {...cardFetch}/>
       </div>
     </section>
   );
