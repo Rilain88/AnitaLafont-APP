@@ -8,14 +8,9 @@ p{
     font-family: 'Dancing Script', cursive;
 }
 
-.cuerpo{
-    justify-content: space-around;
-    align-items: center;
-    
-}
-
 .catalogo{
-    display: grid;
-    grid-template-rows: repeat(1 , auto);
+    display:grid;
+    grid-template-columns: repeat(5 , auto);
+    grid-template-rows: repeat(5 , auto);
     justify-content: center;  
 }
