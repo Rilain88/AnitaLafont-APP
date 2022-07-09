@@ -9,12 +9,12 @@ function Item ({precio, id, title, thumbnailUrl})  {
 
         <div className='card' >
             <div className="row">
-              <div className="col-md-4">
-                  <img style={{ heigth: 350 , width : 350}} src={thumbnailUrl}/>
+              <div className="col-md-12">
+                    <h3 className='card-title text-secondary'> {title}</h3>
                     <hr/>
                     <hr/>
-                   <h3 className='card-title text-secondary'> {title}</h3>
                    <p>{id}</p>
+                   <p> $ {precio}</p>
                </div>
            </div>
                 <button onClick={""}>Mas info.</button>
