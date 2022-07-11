@@ -1,5 +1,7 @@
 import './App.css';
 import Navbar from './components/Navbar';
+import Home from './components/Pages/Home/Home';
+import Nosotros from './components/Pages/Nosotros/Nosotros'
 import ItemListContainer from './components/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer';
 import {Routes, Route} from 'react-router-dom';
@@ -13,11 +15,12 @@ function App() {
       <Routes>
         <Route path="/" element={<ItemListContainer />}></Route>
         <Route path="/type/:shoesId" element={<ItemListContainer />}></Route>
-        <Route path="/item" element={<ItemDetailContainer />}></Route>
+        <Route path="/Item" element={<ItemDetailContainer />}></Route>
+        <Route path="/Home" element={<Home />}></Route>
+        <Route path="/Nosotros" element={<Nosotros />}></Route>
+        
         <Route exact path="*" element={<NotFound />}></Route>
       </Routes>
-     
-      
     </div>
   );
 }
