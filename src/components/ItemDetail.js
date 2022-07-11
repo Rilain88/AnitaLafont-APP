@@ -1,5 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import './ItemDetail.css'
 
 
 function ItemDetail ({precio, id, title, thumbnailUrl, description}) {

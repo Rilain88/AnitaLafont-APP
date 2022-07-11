@@ -1,0 +1,10 @@
+.card{
+    margin: 1rem;
+    padding: 1rem;
+    background-color: #b8880354;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+    border-radius: center;
+    color: white;
+    font-family: 'Dancing Script', cursive;
+    font-size: 30px;
+}
