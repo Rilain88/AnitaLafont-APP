@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import { useEffect, useState } from 'react';
 import ItemCount from './ItemCount.js';
 
-function Item ({precio, id, title, thumbnailUrl})  {
+function Item ({precio, id, type, title, thumbnailUrl})  {
 
     const [info, setInfo] = useState ([])
  

@@ -6,6 +6,7 @@ import ItemListContainer from './components/ItemListContainer';
 import ItemDetailContainer from './components/ItemDetailContainer';
 import {Routes, Route} from 'react-router-dom';
 import NotFound from './components/Pages/NotFound';
+import ItemDetail from './components/ItemDetail';
 
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<ItemListContainer />}></Route>
-        <Route path="/type/:shoesId" element={<ItemListContainer />}></Route>
+        <Route path="/type/:shoesId" element={<ItemDetail />}></Route>
         <Route path="/Item" element={<ItemDetailContainer />}></Route>
         <Route path="/Home" element={<Home />}></Route>
         <Route path="/Nosotros" element={<Nosotros />}></Route>
